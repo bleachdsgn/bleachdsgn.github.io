@@ -1,0 +1,80 @@
+body {
+
+	font-family: 'JeanLucWeb-bold';
+	color: white;
+	font-size: 2.25vw;
+	text-align: center;
+	background: black;
+	letter-spacing: 0.35vw;
+
+
+}
+
+::-webkit-scrollbar { 
+
+    display: none; 
+
+}
+
+.flex-container {
+
+	position:absolute;
+	display: flex;
+	align-items: center;
+	background: black;
+	height: 100%;
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+.left {
+
+	text-align: left;
+
+}
+
+a {
+
+	color: white;
+
+}
+
+a:hover {
+
+	text-decoration: none;
+
+}
+
+.first {
+
+	font-size: 4.30vw;
+
+}
+
+.second {
+
+	display: none;
+	font-size: 4.30vw;
+
+
+}
+
+.third {
+
+	display: none;
+
+}
+
+.red {
+
+	color: red;
+
+}
+
+.blue {
+
+	color: blue;
+
+}
