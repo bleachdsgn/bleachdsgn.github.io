@@ -1,0 +1,565 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "HollanderW01-Bold";
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@import url(http://db.onlinewebfonts.com/c/8a5ae147a9007999962e00e8fba894d4?family=FetteFraktur+LT);
+
+@font-face {font-family: "FetteFraktur LT";
+    src: url("http://db.onlinewebfonts.com/t/8a5ae147a9007999962e00e8fba894d4.eot");
+    src: url("http://db.onlinewebfonts.com/t/8a5ae147a9007999962e00e8fba894d4.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/8a5ae147a9007999962e00e8fba894d4.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/8a5ae147a9007999962e00e8fba894d4.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/8a5ae147a9007999962e00e8fba894d4.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/8a5ae147a9007999962e00e8fba894d4.svg#FetteFraktur LT") format("svg");
+}
+
+@import url(http://db.onlinewebfonts.com/c/567a0c9f8cc32bf267d59a31101eccf1?family=HollanderW01-Bold);
+
+@font-face {font-family: "HollanderW01-Bold";
+    src: url("http://db.onlinewebfonts.com/t/567a0c9f8cc32bf267d59a31101eccf1.eot");
+    src: url("http://db.onlinewebfonts.com/t/567a0c9f8cc32bf267d59a31101eccf1.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/567a0c9f8cc32bf267d59a31101eccf1.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/567a0c9f8cc32bf267d59a31101eccf1.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/567a0c9f8cc32bf267d59a31101eccf1.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/567a0c9f8cc32bf267d59a31101eccf1.svg#HollanderW01-Bold") format("svg");
+}
+
+h1 {
+
+  font-family: "FetteFraktur LT";
+  position: fixed;
+  z-index: 1;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  font-size: 6vw;
+  word-spacing: 0.2em;
+
+}
+
+/*
+==============================================
+bigEntrance
+==============================================
+*/
+
+
+.bigEntrance{
+  animation-name: bigEntrance;
+  -webkit-animation-name: bigEntrance;  
+
+  animation-duration: 1.6s; 
+  -webkit-animation-duration: 1.6s;
+
+  animation-timing-function: ease-out;  
+  -webkit-animation-timing-function: ease-out;  
+
+  visibility: visible !important;     
+}
+
+@keyframes bigEntrance {
+  0% {
+    transform: scale(0.3) rotate(30deg) translateX(-30%) translateY(30%);
+    opacity: 0.2;
+  }
+  30% {
+    transform: scale(1.03) rotate(-30deg) translateX(2%) translateY(-2%);    
+    opacity: 1;
+  }
+  45% {
+    transform: scale(0.98) rotate(20deg) translateX(0%) translateY(0%);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(1.01) rotate(-20deg) translateX(0%) translateY(0%);   
+    opacity: 1;
+  } 
+  75% {
+    transform: scale(0.99) rotate(15deg) translateX(0%) translateY(0%);
+    opacity: 1;
+  }
+  90% {
+    transform: scale(1.01) rotate(-10deg) translateX(0%) translateY(0%);    
+    opacity: 1;
+  } 
+  100% {
+    transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+    opacity: 1;
+  }   
+}
+
+@-webkit-keyframes bigEntrance {
+  0% {
+    -webkit-transform: scale(0.3) rotate(30deg) translateX(-30%) translateY(30%);
+    opacity: 0.2;
+  }
+  30% {
+    -webkit-transform: scale(1.03) rotate(-30deg) translateX(2%) translateY(-2%);    
+    opacity: 1;
+  }
+  45% {
+    -webkit-transform: scale(0.98) rotate(20deg) translateX(0%) translateY(0%);
+    opacity: 1;
+  }
+  60% {
+    -webkit-transform: scale(1.01) rotate(-20deg) translateX(0%) translateY(0%);   
+    opacity: 1;
+  } 
+  75% {
+    -webkit-transform: scale(0.99) rotate(15deg) translateX(0%) translateY(0%);
+    opacity: 1;
+  }
+  90% {
+    -webkit-transform: scale(1.01) rotate(-10deg) translateX(0%) translateY(0%);    
+    opacity: 1;
+  } 
+  100% {
+    -webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+    opacity: 1;
+  }       
+}
+
+/*
+==============================================
+slideLeft
+==============================================
+*/
+
+
+.slideLeft{
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;  
+
+  animation-duration: 1s; 
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: ease-in-out; 
+  -webkit-animation-timing-function: ease-in-out;   
+
+  visibility: visible !important; 
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(150%);
+  }
+  50%{
+    transform: translateX(-8%);
+  }
+  65%{
+    transform: translateX(4%);
+  }
+  80%{
+    transform: translateX(-4%);
+  }
+  95%{
+    transform: translateX(2%);
+  }     
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translateX(150%);
+  }
+  50%{
+    -webkit-transform: translateX(-8%);
+  }
+  65%{
+    -webkit-transform: translateX(4%);
+  }
+  80%{
+    -webkit-transform: translateX(-4%);
+  }
+  95%{
+    -webkit-transform: translateX(2%);
+  }     
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+
+/*
+==============================================
+fadeIn
+==============================================
+*/
+
+.fadeIn{
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn; 
+
+  animation-duration: 1.5s; 
+  -webkit-animation-duration: 1.5s;
+
+  animation-timing-function: ease-in-out; 
+  -webkit-animation-timing-function: ease-in-out;   
+
+  visibility: visible !important; 
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: scale(0);
+    opacity: 0.0;   
+  }
+  60% {
+    transform: scale(1.1);  
+  }
+  80% {
+    transform: scale(0.9);
+    opacity: 1; 
+  } 
+  100% {
+    transform: scale(1);
+    opacity: 1; 
+  }   
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0);
+    opacity: 0.0;   
+  }
+  60% {
+    -webkit-transform: scale(1.1);
+  }
+  80% {
+    -webkit-transform: scale(0.9);
+    opacity: 1; 
+  } 
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1; 
+  }   
+}
+
+/*
+==============================================
+expandUp
+==============================================
+*/
+
+
+.expandUp{
+  animation-name: expandUp;
+  -webkit-animation-name: expandUp; 
+
+  animation-duration: 0.7s; 
+  -webkit-animation-duration: 0.7s;
+
+  animation-timing-function: ease;  
+  -webkit-animation-timing-function: ease;    
+
+  visibility: visible !important; 
+}
+
+@keyframes expandUp {
+  0% {
+    transform: translateY(100%) scale(0.6) scaleY(0.5);
+  }
+  60%{
+    transform: translateY(-7%) scaleY(1.12);
+  }
+  75%{
+    transform: translateY(3%);
+  } 
+  100% {
+    transform: translateY(0%) scale(1) scaleY(1);
+  } 
+}
+
+@-webkit-keyframes expandUp {
+  0% {
+    -webkit-transform: translateY(100%) scale(0.6) scaleY(0.5);
+  }
+  60%{
+    -webkit-transform: translateY(-7%) scaleY(1.12);
+  }
+  75%{
+    -webkit-transform: translateY(3%);
+  } 
+  100% {
+    -webkit-transform: translateY(0%) scale(1) scaleY(1);
+  } 
+}
+
+img {
+
+  max-height: 35vw;
+  max-width: 35vw;
+
+}
+
+/* Basic styling for body */
+
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+/* 
+  Utility classes for showing and hiding
+  elements and setting color backgrounds
+*/
+.is-hidden { opacity: 0 !important; }
+
+.blue {}
+.red {}
+.purple {}
+.yellow {}
+.cyan {}
+.turquoise {}
+.green {}
+.navy {}
+.fuchsia {}
+
+.blue:active {
+
+  background-color: black;
+
+}
+
+.red:active {
+
+  background-color: black;
+
+}
+
+.purple:active {
+
+  background-color: black;
+
+}
+
+.yellow:active {
+
+  background-color: black;
+
+}
+
+.cyan:active {
+
+  background-color: black;
+
+}
+
+.turquoise:active {
+
+  background-color: black;
+
+}
+
+.green:active {
+
+  background-color: black;
+
+}
+
+.navy:active {
+
+  background-color: black;
+
+}
+
+.fuchsia:active {
+
+  background-color: black;
+
+}
+
+.blue:hover {
+
+  cursor: pointer;
+  border: 15px solid black;
+
+}
+
+.red:hover {
+
+  cursor: pointer;
+  border: 15px solid black;
+
+}
+
+.purple:hover {
+
+  cursor: pointer;
+  border: 15px solid black;
+
+}
+
+.yellow:hover {
+
+  cursor: pointer;
+  border: 15px solid black;
+
+}
+
+.cyan:hover {
+
+  cursor: pointer;
+  border: 15px solid black;
+
+}
+
+.turquoise:hover {
+
+  cursor: pointer;
+  border: 15px solid black;
+
+}
+
+.green:hover {
+
+  cursor: pointer;
+  border: 15px solid black;
+
+}
+
+.navy:hover {
+
+  cursor: pointer;
+  border: 15px solid black;
+
+}
+
+.fuchsia:hover {
+
+  cursor: pointer;
+  border: 15px solid black;
+
+}
+
+
+/* Username form styles */
+
+.username-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -60px;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background: white;
+  border: 15px solid black;
+  opacity: 1;
+  transition: opacity .2s;
+}
+
+.username-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Color input styles */
+
+.color-input {
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity .2s;
+  background: white;
+
+}
+
+.color-options {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.color-options-label {
+}
+
+.color-option {
+  display: flex;
+  width: 5vw;
+  height: 12.22vh;
+  transition: opacity .2s;
+  flex-grow: 1;
+}
+
+/* Message styles */
+
+.message {
+  padding: 40px;
+  margin-right: 40px;
+}
+
+.message.from-current-user {
+  text-align: right;
+  margin-right: 0;
+  margin-left: 40px;
+}
+
+.container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.message-container {
+
+
+}
