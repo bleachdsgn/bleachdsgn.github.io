@@ -127,18 +127,12 @@
         $('#nice').text('The music of Jamaica’s rude boys by the mid-1960s put heavy emphasis on the bass line, as opposed to ska’s strong horn section and the rhythm guitar began playing on the upbeat.');
 
 
-        $('::-webkit-scrollbar').css('background-color','purple');
-        $('::-webkit-scrollbar-button').css('background-color','purple');
-        $('::-webkit-scrollbar-track').css('background-color','purple');
-        $('::-webkit-scrollbar-track-piece').css('background-color','purple');
-        $('::-webkit-scrollbar-thumb').css('background-color','purple');
-        $('::-webkit-scrollbar-corner').css('background-color','purple');
-
       } else if (thisnode.name == "Ska") {
 
-        $('body').css('background-color','red');
-        $('.js-mindmap-active a.node.activeparent').css('background-color','purple');
-        $('.js-mindmap-active a.node').css('background-color','red');
+        $('body').css('background-color','yellow');
+        $('.js-mindmap-active a.node.activeparent').css('background-color','green');
+        $('.js-mindmap-active a.node').css('background-color','yellow');
+        $('.spine-wrapper').css('background-color','yellow');
         $('.js-mindmap-active a.node').css('border-color','purple');
         $('.js-mindmap-active a.node').css('color','purple');
         $('.spine-wrapper.right:before').css({color: 'purple'});
@@ -146,12 +140,6 @@
         $('#nice').text('Combining elements of mento and calypso with American jazz and rhythm and blues, ska is characterized by a walking bass line accented with rhythms on the upbeat. In the early 1960s, ska was the dominant music genre of Jamaica and was popular with British mods.');
 
 
-        $('::-webkit-scrollbar').css('background-color','purple');
-        $('::-webkit-scrollbar-button').css('background-color','purple');
-        $('::-webkit-scrollbar-track').css('background-color','purple');
-        $('::-webkit-scrollbar-track-piece').css('background-color','purple');
-        $('::-webkit-scrollbar-thumb').css('background-color','purple');
-        $('::-webkit-scrollbar-corner').css('background-color','purple');
 
       };
 
@@ -463,7 +451,7 @@
     this.el.remove();
   };
 
-var niceColors = "#800000";
+var niceColors = "#FDD02F";
 
 
   // Define all Line related functions.

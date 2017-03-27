@@ -75,9 +75,9 @@ figure {
   margin: 0; }
 
 ::-webkit-scrollbar {
-  width: 10px; }
+  display: none; }
 
-::-webkit-scrollbar-button {
+/*::-webkit-scrollbar-button {
   background: #159A3F; }
 
 ::-webkit-scrollbar-track {
@@ -91,7 +91,7 @@ figure {
 
 ::-webkit-scrollbar-corner {
   background: #159A3F;
-  display: none; }
+  display: none; }*/
 
 button,
 input,
