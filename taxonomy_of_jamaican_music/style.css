@@ -58,11 +58,11 @@ body {
   border-radius: 50%;
 }
 .js-mindmap-active a.node.active {
-  padding:5px 10px !important;
+  /*padding:5px 10px !important;*/
   border-width:5px !important;
 }
 .js-mindmap-active a.node.activeparent {
-  padding:5px 10px !important;
+  /*padding:5px 10px !important;*/
   border-width:5px !important;
   background:#0C5C25;
 }
@@ -226,15 +226,17 @@ input[type="radio"] {
         -moz-transition: color .3s ease;
         transition: color .3s ease; }
       .spine-wrapper.left:hover:before {
-        color: #159A3F; }
-    .spine-wrapper.right {
-      border-left: 2px solid #FDD02F;
-      color: #FDD02F;
-      right: -48%;
-      right: calc(-50% + 48px);
-      -webkit-transition: right .3s ease;
-      -moz-transition: right .3s ease;
-      transition: right .3s ease; }
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0ms 300ms, opacity 300ms linear; }
+      .spine-wrapper.right {
+        border-left: 2px solid #FDD02F;
+        color: #FDD02F;
+        right: -48%;
+        right: calc(-50% + 48px);
+        -webkit-transition: right .3s ease;
+        -moz-transition: right .3s ease;
+        transition: right .3s ease; }
       .spine-wrapper.right:before {
         content: 'Chunes';
         position: absolute;
@@ -260,7 +262,9 @@ input[type="radio"] {
         -moz-transition: color .3s ease;
         transition: color .3s ease; }
       .spine-wrapper.right:hover:before {
-        color: #159A3F; }
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0ms 300ms, opacity 300ms linear; }
     .spine-wrapper:hover {
       overflow-y: scroll; }
       .spine-wrapper:hover.right {

@@ -115,35 +115,48 @@
       console.log(thisnode.name);
       console.log(thisnode.href);
 
-      if (thisnode.name == "Rocksteady") {
+      // if (thisnode.name == "Rocksteady") {
 
-        $('body').css('background-color','red');
-        $('.js-mindmap-active a.node.activeparent').css('background-color','purple');
-        $('.js-mindmap-active a.node').css('background-color','red');
-        $('.js-mindmap-active a.node').css('border-color','purple');
-        $('.js-mindmap-active a.node').css('color','purple');
+      //   $('body').css('background-color','red');
+      //   $('.js-mindmap-active a.node.activeparent').css('background-color','purple');
+      //   $('.js-mindmap-active a.node').css('background-color','red');
+      //   $('.js-mindmap-active a.node').css('border-color','purple');
+      //   $('.js-mindmap-active a.node').css('color','purple');
        
-        $('#sweet').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpjVdM7HbCutvj_O9UtYmPjR&autoplay=1&loop=1");
-        $('#nice').text('The music of Jamaica’s rude boys by the mid-1960s put heavy emphasis on the bass line, as opposed to ska’s strong horn section and the rhythm guitar began playing on the upbeat.');
+      //   $('#sweet').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpjVdM7HbCutvj_O9UtYmPjR&autoplay=1&loop=1");
+      //   $('#nice').text('The music of Jamaica’s rude boys by the mid-1960s put heavy emphasis on the bass line, as opposed to ska’s strong horn section and the rhythm guitar began playing on the upbeat.');
 
-      } else if (thisnode.name == "Ska") {
+      // } else if (thisnode.name == "Ska") {
 
-        $('body').css('background-color','yellow');
-        $('.js-mindmap-active a.node.activeparent').css('background-color','green');
-        $('.js-mindmap-active a.node').css('background-color','yellow');
-        $('.spine-wrapper').css('background-color','yellow');
-        $('.spine-wrapper.left').css('color','green');
-        $('.js-mindmap-active a.node').css('border-color','green');
-        $('.js-mindmap-active a.node').css('color','green');
+      //   $('body').css('background-color','yellow');
+      //   $('.js-mindmap-active a.node.activeparent').css('background-color','green');
+      //   $('.js-mindmap-active a.node').css('background-color','yellow');
 
-        $('#sweet').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npj4HeQ9EvjONLCwXI-I6qRz&autoplay=1&loop=1");
-        $('#nice').text('Combining elements of mento and calypso with American jazz and rhythm and blues, ska is characterized by a walking bass line accented with rhythms on the upbeat. In the early 1960s, ska was the dominant music genre of Jamaica and was popular with British mods.');
 
-      } else if (thisnode.name == "2 Tone") {
+      //   $('.spine-wrapper').css('background-color','yellow');
 
-        $('#nice').text('The genre, which began in the late 1970s in the Coventry, England area, was a fusion of Jamaican ska rhythms and melodies with punk rock’s more aggressive guitar chords and lyrics. Compared to 1960s ska, 2 Tone music had faster tempos, fuller instrumentation and a harder edge. The 2 Tone movement promoted racial unity at a time when racial tensions were high in the UK.');
+      //   $('.spine-wrapper').css('background-color','yellow');
 
-      };
+        
+      //   $('.spine-wrapper.left').css('color','purple');
+
+      //   $('.spine-wrapper.left:before').css('color','purple');
+
+      //   $('.spine-wrapper.right').css('border-right','green');
+      //   $('.spine-wrapper.right').css('color','green');
+      //   $('.js-mindmap-active a.node').css('border-color','green');
+      //   $('.js-mindmap-active a.node').css('color','green');
+
+       
+
+      //   $('#sweet').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npj4HeQ9EvjONLCwXI-I6qRz&autoplay=1&loop=1");
+      //   $('#nice').text('Combining elements of mento and calypso with American jazz and rhythm and blues, ska is characterized by a walking bass line accented with rhythms on the upbeat. In the early 1960s, ska was the dominant music genre of Jamaica and was popular with British mods.');
+
+      // } else if (thisnode.name == "2 Tone") {
+
+      //   $('#nice').text('The genre, which began in the late 1970s in the Coventry, England area, was a fusion of Jamaican ska rhythms and melodies with punk rock’s more aggressive guitar chords and lyrics. Compared to 1960s ska, 2 Tone music had faster tempos, fuller instrumentation and a harder edge. The 2 Tone movement promoted racial unity at a time when racial tensions were high in the UK.');
+
+      // };
 
       if (obj.activeNode) {
         obj.activeNode.el.removeClass('active');
@@ -383,7 +396,7 @@
           xsign = x1 / Math.abs(x1);
         }
         // force is based on radial distance
-        f = (this.options.attract * dist) / 10000;
+        f = (this.options.attract * dist) / 30000;
         fx += f * Math.cos(theta) * xsign;
         fy += f * Math.sin(theta) * xsign;
       }

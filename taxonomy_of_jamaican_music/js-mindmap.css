@@ -1,5 +1,3 @@
-body {
-}
 #debug1 {
   display:block;
 }
@@ -15,26 +13,31 @@ body {
   left:0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 0.025em;
-  font-size:11px;
+  /*font-size: 10px;*/
   color:#003258;
-  padding:0 7px;
+  /*padding: 1vw;*/
   cursor:pointer;
   cursor:hand;
   z-index:100;
   list-style:none;
+
 }
 .js-mindmap-active a.node {
-  font: 30px/34px Arial, sans-serif;
-  font-size:1em;
+  /*font: 30px/34px Arial, sans-serif;*/
+  font-size: 1vw;
   letter-spacing: 0;
-  display:block;
+  line-height: 20px;
+  /*display: block;*/
   color:#FDD02F;
   text-align:center;
   text-decoration:none;
   text-transform: uppercase;
+  height: 8vw;
+  width: 8vw;
+  vertical-align: middle;
 }
 .js-mindmap-active .node.active{
-  font-size:1.5em;
+  /*font-size:1.5em;*/
 }
 .js-mindmap-active .node.active  a{
   color:#003258;
@@ -60,10 +63,4 @@ body {
   bottom:-1px;
   text-align:center;
   vertical-align:super;
-}
-
-li {
-
-  font-size: 60px;
-
 }
