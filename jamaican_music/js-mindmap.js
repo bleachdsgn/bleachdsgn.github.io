@@ -110,53 +110,309 @@
       }
     });
 
+    if (thisnode.name == "Mento") {
+
+      $(this.el).addClass('mento center');
+
+    };
+
+    if (thisnode.name == "Ska") {
+
+      $(this.el).addClass('ska center');
+  
+    };
+
+    if (thisnode.name == "Rocksteady") {
+
+      $(this.el).addClass('rocksteady center');
+  
+    };
+
+    if (thisnode.name == "Reggae") {
+
+      $(this.el).addClass('reggae center');
+  
+    };
+
+    if (thisnode.name == "Dub") {
+
+      $(this.el).addClass('dub center');
+  
+    };
+
+    if (thisnode.name == "Dancehall") {
+
+      $(this.el).addClass('dancehall center');
+
+    };
+
+    if (thisnode.name == "Reggae Fusion") {
+
+      $(this.el).addClass('reggaefusion center');
+  
+    };
+
+    if (thisnode.name == "R&B") {
+
+      $(this.el).addClass('randb center');
+  
+    };
+
+    if (thisnode.name == "Soul") {
+
+      $(this.el).addClass('soul center');
+  
+    };
+
+    if (thisnode.name == "Lover’s Rock") {
+
+      $(this.el).addClass('loversrock center');
+  
+    };
+
+    if (thisnode.name == "Punk Rock") {
+
+      $(this.el).addClass('punkrock center');
+  
+    };
+
+    if (thisnode.name == "2 Tone") {
+
+      $(this.el).addClass('two-tone center');
+  
+    };
+
+    if (thisnode.name == "Hip-Hop") {
+
+      $(this.el).addClass('hip-hop center');
+  
+    };
+
+    if (thisnode.name == "Third Wave Ska") {
+
+      $(this.el).addClass('thirdwaveska center');
+  
+    };
+
+    if (thisnode.name == "Jungle") {
+
+      $(this.el).addClass('jungle center');      
+  
+    };
+
+    if (thisnode.name == "Trip-Hop") {
+
+      $(this.el).addClass('trip-hop center');
+  
+    };
+
+    if (thisnode.name == "Jazz") {
+
+      $(this.el).addClass('jazz center');
+  
+    };
+
+    if (thisnode.name == "UK Garage") {
+
+      $(this.el).addClass('ukgarage center');
+  
+    };
+
+    if (thisnode.name == "Grime") {
+
+      $(this.el).addClass('grime center');
+  
+    };
+
+    if (thisnode.name == "Dubstep") {
+
+      $(this.el).addClass('dubstep center');
+  
+    };
+
     this.el.click(function () {
       //every time a node is clicked, this function should fire - you can use values from thisnode here, for example:
       console.log(thisnode.name);
       console.log(thisnode.href);
 
-      // if (thisnode.name == "Rocksteady") {
+      if (thisnode.name == "Mento") {
 
-      //   $('body').css('background-color','red');
-      //   $('.js-mindmap-active a.node.activeparent').css('background-color','purple');
-      //   $('.js-mindmap-active a.node').css('background-color','red');
-      //   $('.js-mindmap-active a.node').css('border-color','purple');
-      //   $('.js-mindmap-active a.node').css('color','purple');
-       
-      //   $('#sweet').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpjVdM7HbCutvj_O9UtYmPjR&autoplay=1&loop=1");
-      //   $('#nice').text('The music of Jamaica’s rude boys by the mid-1960s put heavy emphasis on the bass line, as opposed to ska’s strong horn section and the rhythm guitar began playing on the upbeat.');
+        $(this.el).css('color','#fdd108');
+        $(this.el).css('background-color','#079b49');
 
-      // } else if (thisnode.name == "Ska") {
+        $('.spine-wrapper').css('background-color','#079b49');
+        $('.spine-wrapper').css('background-color','#079b49');
+        $('.spine-wrapper.left').css('color','#fdd108');
+        $('.spine-wrapper.left:before').css('color','#fdd108');
+        $('.spine-wrapper.right').css('color','#fdd108');
+        $('.spine-wrapper.right:before').css('color','#fdd108');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npir5jYtzUy4eBPA39a_xve8&autoplay=1&loop=1");
+        $('#genre').text('Mento draws on musical traditions brought by West African slaves. They also absorbed European musical traditions, creating a new form. Typically featuring acoustic instruments, such as guitar, banjo, hand drums, and the rhumba box—a large mbira in the shape of a box that can be sat on while played. The lyrics of mento songs often deal with aspects of everyday life in a light-hearted and humorous way. Many comment on poverty, poor housing, and other social issues. Thinly veiled sexual references and innuendo are also common. Although the treatment of such subjects in mento is comparatively innocent, their appearance has sometimes been seen as a precursor of the slackness found in modern <a href="#">dancehall</a>.');
 
-      //   $('body').css('background-color','yellow');
-      //   $('.js-mindmap-active a.node.activeparent').css('background-color','green');
-      //   $('.js-mindmap-active a.node').css('background-color','yellow');
+      } else if (thisnode.name == "Ska") {
 
+        $('.spine-wrapper').css('background-color','#fdd108');
+        $('.spine-wrapper').css('background-color','#fdd108');
+        $('.spine-wrapper.left').css('color','#079b49');
+        $('.spine-wrapper.left:before').css('color','#079b49');
+        $('.spine-wrapper.right').css('color','#079b49');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npj4HeQ9EvjONLCwXI-I6qRz&autoplay=1&loop=1");
+        $('#genre').text('Combining elements of mento and calypso with American jazz and rhythm and blues, ska is characterized by a walking bass line accented with rhythms on the upbeat. In the early 1960s, ska was the dominant music genre of Jamaica and was popular with British mods.');
 
-      //   $('.spine-wrapper').css('background-color','yellow');
+      } else if (thisnode.name == "Rocksteady") {
 
-      //   $('.spine-wrapper').css('background-color','yellow');
+        $('.spine-wrapper').css('background-color','#ee362b');
+        $('.spine-wrapper').css('background-color','#ee362b');
+        $('.spine-wrapper.left').css('color','#040807');
+        $('.spine-wrapper.left:before').css('color','#040807');
+        $('.spine-wrapper.right').css('color','#040807');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpjVdM7HbCutvj_O9UtYmPjR&autoplay=1&loop=1");
+        $('#genre').text('The music of Jamaica’s rude boys by the mid-1960s put heavy emphasis on the bass line, as opposed to ska’s strong horn section and the rhythm guitar began playing on the upbeat.');
 
-        
-      //   $('.spine-wrapper.left').css('color','purple');
+      } else if (thisnode.name == "Reggae") {
 
-      //   $('.spine-wrapper.left:before').css('color','purple');
+        $('.spine-wrapper').css('background-color','#fbdd00');
+        $('.spine-wrapper').css('background-color','#fbdd00');
+        $('.spine-wrapper.left').css('color','#0f8944');
+        $('.spine-wrapper.left:before').css('color','#0f8944');
+        $('.spine-wrapper.right').css('color','#0f8944');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpjdG0ixD5L72c__0WTom_3c&autoplay=1&loop=1");
+        $('#genre').text('Evolved out of ska and rocksteady in the late 1960s. The tempo of reggae is usually slower than ska but faster than rocksteady. The bass guitar often plays the dominant role in reggae. The guitar in reggae usually plays on the off beat of the rhythm. The Rastafari movement was a key element in the development of reggae, infusing the music with a sense of spirituality. Reggae became popular around the world, due in large part to the international success of artists like Bob Marley, Peter Tosh and Bunny Wailer. Marley’s lyrics about love, redemption and natural beauty captivated audiences, and he gained headlines when he joined the hands of political rivals Michael Manley and Edward Seaga at the One Love Concert.');
+  
+      } else if (thisnode.name == "Dub") {
 
-      //   $('.spine-wrapper.right').css('border-right','green');
-      //   $('.spine-wrapper.right').css('color','green');
-      //   $('.js-mindmap-active a.node').css('border-color','green');
-      //   $('.js-mindmap-active a.node').css('color','green');
+        $('.spine-wrapper').css('background-color','#ed3426');
+        $('.spine-wrapper').css('background-color','#ed3426');
+        $('.spine-wrapper.left').css('color','#91c53f');
+        $('.spine-wrapper.left:before').css('color','#91c53f');
+        $('.spine-wrapper.right').css('color','#91c53f');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpgVCKIgJ38WubWhGizWMQpG&autoplay=1&loop=1");
+        $('#genre').text('A genre of electronic music that grew out of reggae in the 1960s, and is commonly considered a subgenre, though it has developed to extend beyond the scope of reggae. Music in this genre consists predominantly of instrumental remixes of existing recordings and is achieved by significantly manipulating and reshaping the recordings, usually by removing the vocals and emphasizing the drum and bass parts. Other techniques include dynamically adding extensive echo, reverb, panoramic delay, and occasional dubbing of vocal or instrumental snippets from the original version or other works.');
+  
+      } else if (thisnode.name == "Dancehall") {
 
-       
+        $('.spine-wrapper').css('background-color','#000000');
+        $('.spine-wrapper').css('background-color','#000000');
+        $('.spine-wrapper.left').css('color','#ffde0c');
+        $('.spine-wrapper.left:before').css('color','#ffde0c');
+        $('.spine-wrapper.right').css('color','#ffde0c');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpicqSGsRLGoo1iVUzQAzNGZ&autoplay=1&loop=1");
+        $('#genre').text('Social and political changes in late-1970s Jamaica, including the change from the socialist government of Michael Manley (People’s National Party) to Edward Seaga (Jamaica Labour Party), were reflected in the shift away from the more internationally oriented roots reggae towards a style geared more towards local consumption and in tune with the music that Jamaicans had experienced when sound systems performed live. Dub poet Mutabaruka said, “If 1970s reggae was red, green and gold, then in the next decade it was gold chains”. It was far removed from reggae’s gentle roots and culture, and there was much debate among purists as to whether it should be considered an extension of reggae. Themes of social injustice, repatriation and the Rastafari movement were overtaken by lyrics about dancing, violence and sexuality.');
+  
+      } else if (thisnode.name == "Reggae Fusion") {
 
-      //   $('#sweet').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npj4HeQ9EvjONLCwXI-I6qRz&autoplay=1&loop=1");
-      //   $('#nice').text('Combining elements of mento and calypso with American jazz and rhythm and blues, ska is characterized by a walking bass line accented with rhythms on the upbeat. In the early 1960s, ska was the dominant music genre of Jamaica and was popular with British mods.');
+        $('.spine-wrapper').css('background-color','#b71f71');
+        $('.spine-wrapper').css('background-color','#b71f71');
+        $('.spine-wrapper.left').css('color','#4ab96d');
+        $('.spine-wrapper.left:before').css('color','#4ab96d');
+        $('.spine-wrapper.right').css('color','#4ab96d');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npimmn3W5paNVoSBG0IG-v0x&autoplay=1&loop=1");
+        $('#genre').text('');
 
-      // } else if (thisnode.name == "2 Tone") {
+      } else if (thisnode.name == "R&B") {
 
-      //   $('#nice').text('The genre, which began in the late 1970s in the Coventry, England area, was a fusion of Jamaican ska rhythms and melodies with punk rock’s more aggressive guitar chords and lyrics. Compared to 1960s ska, 2 Tone music had faster tempos, fuller instrumentation and a harder edge. The 2 Tone movement promoted racial unity at a time when racial tensions were high in the UK.');
+        $('.spine-wrapper').css('background-color','#91318f');
+        $('.spine-wrapper').css('background-color','#91318f');
+        $('.spine-wrapper.left').css('color','#91318f');
+        $('.spine-wrapper.left:before').css('color','#e5ce81');
+        $('.spine-wrapper.right').css('color','#e5ce81');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npimmn3W5paNVoSBG0IG-v0x&autoplay=1&loop=1");
+        $('#genre').text('');
+  
+    } else if (thisnode.name == "Soul") {
 
-      // };
+        $('.spine-wrapper').css('background-color','#bd2727');
+        $('.spine-wrapper').css('background-color','#bd2727');
+        $('.spine-wrapper.left').css('color','#bd2727');
+        $('.spine-wrapper.left:before').css('color','#fcbe34');
+        $('.spine-wrapper.right').css('color','#fcbe34');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npimmn3W5paNVoSBG0IG-v0x&autoplay=1&loop=1");
+        $('#genre').text('');
+  
+    } else if (thisnode.name == "Hip-Hop") {
+
+        $('.spine-wrapper').css('background-color','#ffde0c');
+        $('.spine-wrapper').css('background-color','#ffde0c');
+        $('.spine-wrapper.left').css('color','#000000');
+        $('.spine-wrapper.left:before').css('color','#000000');
+        $('.spine-wrapper.right').css('color','#000000');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npimmn3W5paNVoSBG0IG-v0x&autoplay=1&loop=1");
+        $('#genre').text('');
+  
+    } else if (thisnode.name == "Third Wave Ska") {
+
+        $('.spine-wrapper').css('background-color','#2a4082');
+        $('.spine-wrapper').css('background-color','#2a4082');
+        $('.spine-wrapper.left').css('color','#e9879a');
+        $('.spine-wrapper.left:before').css('color','#e9879a');
+        $('.spine-wrapper.right').css('color','#e9879a');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpgzVBRedrNnsH5aC2hJ_QT9&autoplay=1&loop=1");
+        $('#genre').text('By the early 1980s, 2 Tone-influenced ska bands began forming throughout the United States. Third wave ska originated in the punk scene in the 1980s and became commercially successful in the 1990s. Although some third wave ska has a traditional 1960s sound, most third wave ska is characterized by dominating guitar riffs and large horn sections.');
+  
+    } else if (thisnode.name == "Jungle") {
+
+        $('.spine-wrapper').css('background-color','#000000');
+        $('.spine-wrapper').css('background-color','#000000');
+        $('.spine-wrapper.left').css('color','#079b49');
+        $('.spine-wrapper.left:before').css('color','#079b49');
+        $('.spine-wrapper.right').css('color','#079b49');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpitawDzE6PKJ2hELfjBxsiC&autoplay=1&loop=1");
+        $('#genre').text('A genre of electronic music that developed in England in the early 1990s, jungle was a form of cultural expression for London’s lower class urban youth. The Post-Thatcherite United Kingdom of the early 1990s had left many urbanites (especially young urbanites) disenfranchised and disillusioned with a seemingly crumbling societal structure. Jungle reflected these feelings; it was a notably more dark, less euphoric style of music than many of the other styles popular at raves. Jungle was a racially mixed scene, but was much more popular with black British youths than other rave styles, such as techno. Jungle producers incorporated classic Jamaican/Caribbean sound-system culture production-methods. The slow, deep bass lines and simple melodies (reminiscent of those found in dub, reggae and dancehall) accentuated the overall production, giving jungle its “rolling” quality.');
+  
+    } else if (thisnode.name == "Trip-Hop") {
+
+        $('.spine-wrapper').css('background-color','#180f35');
+        $('.spine-wrapper').css('background-color','#180f35');
+        $('.spine-wrapper.left').css('color','#8a99be');
+        $('.spine-wrapper.left:before').css('color','#8a99be');
+        $('.spine-wrapper.right').css('color','#8a99be');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpiDvP8hI4ZCoUwRx5BjV21d&autoplay=1&loop=1");
+        $('#genre').text('');
+
+    } else if (thisnode.name == "Jazz") {
+
+        $('.spine-wrapper').css('background-color','#faa332');
+        $('.spine-wrapper').css('background-color','#faa332');
+        $('.spine-wrapper.left').css('color','#460c3e');
+        $('.spine-wrapper.left:before').css('color','#460c3e');
+        $('.spine-wrapper.right').css('color','#460c3e');
+        $('#playlist').attr("src", "");
+        $('#genre').text('');
+  
+    } else if (thisnode.name == "UK Garage") {
+
+        $('.spine-wrapper').css('background-color','#db1473');
+        $('.spine-wrapper').css('background-color','#db1473');
+        $('.spine-wrapper.left').css('color','#162746');
+        $('.spine-wrapper.left:before').css('color','#162746');
+        $('.spine-wrapper.right').css('color','#162746');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpjbuJ-wMo46wP8vyR_j-MPo&autoplay=1&loop=1");
+        $('#genre').text('');
+  
+    } else if (thisnode.name == "Grime") {
+
+        $('.spine-wrapper').css('background-color','#999999');
+        $('.spine-wrapper').css('background-color','#999999');
+        $('.spine-wrapper.left').css('color','#000000');
+        $('.spine-wrapper.left:before').css('color','#000000');
+        $('.spine-wrapper.right').css('color','#000000');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Nphqt7EB67QWExaBY9k4NIUL&autoplay=1&loop=1");
+        $('#genre').text('Grime is a genre of music that emerged in England in the early 2000s. It is primarily a development of UK garage, drum and bass and dancehall. Grime is not an offshoot of early electronic music, but rather a subgenre that draws from a wide variety of influences. Early innovative artists were able to take the strong thumping drums of drum and bass, lyricism and vocal styles of UK Garage and alter some of the rhythms of dancehall to capture all three genre’s essences and add a new half-time, down-tempo dimension to the mix.');
+  
+    } else if (thisnode.name == "Dubstep") {
+
+      // $(this.el).css('color','#4ab96d');
+      // $(this.el).css('background-color','#724c9f');
+
+        $('.spine-wrapper').css('background-color','#724c9f');
+        $('.spine-wrapper').css('background-color','#724c9f');
+        $('.spine-wrapper.left').css('color','#4ab96d');
+        $('.spine-wrapper.left:before').css('color','#4ab96d');
+        $('.spine-wrapper.right').css('color','#4ab96d');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpgaM5tooB3BVpq_vKRGpuan&autoplay=1&loop=1");
+        $('#genre').text('A genre of electronic dance music that emerged in the late 1990s  in South London, England. In the UK the origins of the genre can be traced back to the growth of the Jamaican sound system party scene in the early 1980s. The music generally features syncopated drum and percussion patterns with bass lines that contain prominent sub bass frequencies.');
+  
+    };
 
       if (obj.activeNode) {
         obj.activeNode.el.removeClass('active');
@@ -396,7 +652,7 @@
           xsign = x1 / Math.abs(x1);
         }
         // force is based on radial distance
-        f = (this.options.attract * dist) / 30000;
+        f = (this.options.attract * dist) / 70000;
         fx += f * Math.cos(theta) * xsign;
         fy += f * Math.sin(theta) * xsign;
       }
@@ -418,7 +674,7 @@
           theta = Math.atan(y1 / x1);
         }
         // force is based on radial distance
-        f = (0.1 * this.options.attract * dist * CENTRE_FORCE) / 1000;
+        f = (0.1 * this.options.attract * dist * CENTRE_FORCE) / 10000;
         fx += f * Math.cos(theta) * xsign;
         fy += f * Math.sin(theta) * xsign;
       }
@@ -466,7 +722,7 @@
     this.el.remove();
   };
 
-var niceColors = "#FDD02F";
+
 
 
   // Define all Line related functions.
@@ -485,9 +741,8 @@ var niceColors = "#FDD02F";
     }
     this.size = (this.start.visible && this.end.visible) ? "thick" : "thin";
     this.color = (this.obj.activeNode.parent === this.start || this.obj.activeNode.parent === this.end) ? "red" : "blue";
-    this.strokeStyle = niceColors;
 
-    this.obj.canvas.path("M" + this.start.x + ' ' + this.start.y + "L" + this.end.x + ' ' + this.end.y).attr({'stroke': this.strokeStyle, 'opacity': 1, 'stroke-width': '5px'});
+    this.obj.canvas.path("M" + this.start.x + ' ' + this.start.y + "L" + this.end.x + ' ' + this.end.y).attr({'stroke': "black", 'opacity': 0.1, 'stroke-width': '5px', 'stroke-dasharray': 5});
   };
 
   $.fn.addNode = function (parent, name, options) {
@@ -563,6 +818,7 @@ var niceColors = "#FDD02F";
 
       // Add a class to the object, so that styles can be applied
       $(this).addClass('js-mindmap-active');
+
 
       // Add keyboard support (thanks to wadefs)
       $(this).keyup(function (event) {

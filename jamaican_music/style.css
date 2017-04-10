@@ -30,7 +30,18 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  background: #f6f6f6;
+  font-family: 'GarageGothic-Black';
 }
+
+
+@font-face {
+  font-family: 'GarageGothic-Black';
+  src: local('/fonts/'),
+    url("GarageGothic-Black.otf") format("otf"),
+}
+
+
 ol, ul {
   list-style: none;
 }
@@ -47,24 +58,16 @@ table {
   border-spacing: 0;
 }
 
-body {
-  background: #159A3F;
-}
 .js-mindmap-active a.node {
-  background: #159A3F;
-  border: 2px solid #FDD02F;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
 .js-mindmap-active a.node.active {
   /*padding:5px 10px !important;*/
-  border-width:5px !important;
 }
 .js-mindmap-active a.node.activeparent {
   /*padding:5px 10px !important;*/
-  border-width:5px !important;
-  background:#0C5C25;
 }
 
 img {
@@ -192,7 +195,6 @@ input[type="radio"] {
     -ms-overflow-style: none;
     display: block; }
     .spine-wrapper.left {
-      border-right: 2px solid #FDD02F;
       color: #FDD02F;
       left: -47%;
       left: calc(-50% + 48px);
@@ -206,11 +208,11 @@ input[type="radio"] {
         position: absolute;
         top: 50%;
         right: 0;
-        line-height: 2em;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 1.5625em;
+        line-height: 1.3em;
+        font-family: 'GarageGothic-Black';
+        font-size: 3vw;
         letter-spacing: 0.025em;
-        color: #FDD02F;
+        /*color: #FDD02F;*/
         text-transform: uppercase;
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
@@ -230,8 +232,7 @@ input[type="radio"] {
         opacity: 0;
         transition: visibility 0ms 300ms, opacity 300ms linear; }
       .spine-wrapper.right {
-        border-left: 2px solid #FDD02F;
-        color: #FDD02F;
+        /*color: #FDD02F;*/
         right: -48%;
         right: calc(-50% + 48px);
         -webkit-transition: right .3s ease;
@@ -242,11 +243,11 @@ input[type="radio"] {
         position: absolute;
         top: 50%;
         left: 0;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 1.5625em;
+        font-family: 'GarageGothic-Black';
+        font-size: 3vw;
         letter-spacing: 0.025em;
-        color: #FDD02F;
-        line-height: 2em;
+        /*color: #FDD02F;*/
+        line-height: 1.3em;
         text-transform: uppercase;
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
@@ -314,15 +315,6 @@ input[type="radio"] {
         font-size: 28px;
         line-height: 32px; } }
 
-.sweet {
-
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  letter-spacing: 0.025em;
-  color: #159A3F
-  margin: 10px;
-
-}
-
 h3 {
 
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -358,7 +350,6 @@ a:hover {
   cursor: pointer;
 
 }
-
 
 
 

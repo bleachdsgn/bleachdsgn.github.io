@@ -8,13 +8,12 @@
    display:block;
 }
 .js-mindmap-active .node {
-  position:absolute;
+  /*position:absolute;*/
   top:0;
   left:0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'GarageGothic-Black';
   letter-spacing: 0.025em;
   /*font-size: 10px;*/
-  color:#003258;
   /*padding: 1vw;*/
   cursor:pointer;
   cursor:hand;
@@ -24,18 +23,17 @@
 }
 .js-mindmap-active a.node {
   /*font: 30px/34px Arial, sans-serif;*/
-  font-size: 1vw;
+  font-size: 2.3vw;
   letter-spacing: 0;
-  line-height: 20px;
+  line-height: 2.3vw;
   /*display: block;*/
-  color:#FDD02F;
   text-align:center;
   text-decoration:none;
   text-transform: uppercase;
-  height: 8vw;
-  width: 8vw;
-  vertical-align: middle;
+  height: 10vw;
+  width: 10vw;
 }
+
 .js-mindmap-active .node.active{
   /*font-size:1.5em;*/
 }
@@ -64,3 +62,168 @@
   text-align:center;
   vertical-align:super;
 }
+
+.mento {
+
+  color: #fdd108;
+  background-color: #079b49;  
+
+}
+
+.ska {
+
+  color: #079b49;
+  background-color: #fdd108;
+
+}
+
+.rocksteady {
+
+  color: #040807;
+  background-color: #ee362b;
+
+}
+
+.reggae {
+
+  color: #0f8944;
+  background-color: #fbdd00;
+
+}
+
+.dub {
+
+  color: #91c53f;
+  background-color: #ed3426;
+
+}
+
+.dancehall {
+
+  color: #ffde0c;
+  background-color: #000000;
+
+}
+
+.reggaefusion {
+
+  color: #4ab96d;
+  background-color: #b71f71;
+
+}
+
+.randb {
+
+  color: #e5ce81;
+  background-color: #91318f;
+
+} 
+
+.soul {
+
+  color: #fcbe34;
+  background-color: #bd2727;
+
+}
+
+.loversrock {
+
+  color: #ecd482;
+  background-color: #d02c40;
+
+}
+
+.punkrock {
+
+  color: #098346;
+  background-color: #e57c89;
+
+}
+
+.two-tone {
+
+  color: #ed0e6b;
+  background-color: #f0d811;
+
+}
+
+.hip-hop {
+
+  color: #000000;
+  background-color: #ffde0c;
+
+}
+
+.thirdwaveska {
+
+  color: #e9879a;
+  background-color: #2a4082;
+
+}
+
+.jungle {
+
+  color: #079b49;
+  background-color: #000000;
+
+}
+
+.trip-hop {
+
+  color: #8a99be;
+  background-color: #180f35;
+
+}
+
+.jazz {
+
+  color: #460c3e;
+  background-color: #faa332;
+
+}
+
+.ukgarage {
+
+  color: #162746;
+  background-color: #db1473;
+
+}
+
+.grime {
+
+  color: #000000;
+  background-color: #999999;
+
+}
+
+.dubstep {
+
+  color: #4ab96d;
+  background-color: #724c9f;
+
+}
+
+.center {
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+
+}
+
+
