@@ -307,7 +307,7 @@
         $('.spine-wrapper.left:before').css('color','#4ab96d');
         $('.spine-wrapper.right').css('color','#4ab96d');
         $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npimmn3W5paNVoSBG0IG-v0x&autoplay=1&loop=1");
-        $('#genre').text('');
+        $('#genre').text('In 2017, the influence of dancehall feels more present in mainstream pop culture than it has been since the mid-’00s. Jamaica has become increasingly open to foreign interpretations of its domestic sounds, case in point: the growing local popularity of EDM-dancehall hybrid music. It’s clear that the audience is there and the market is ready for a new dancehall star, it’s just a matter of all the right people continuing to work together to make it happen.');
 
       } else if (thisnode.name == "R&B") {
 
@@ -336,7 +336,7 @@
         $('.spine-wrapper.left').css('color','#000000');
         $('.spine-wrapper.left:before').css('color','#000000');
         $('.spine-wrapper.right').css('color','#000000');
-        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npimmn3W5paNVoSBG0IG-v0x&autoplay=1&loop=1");
+        $('#playlist').attr("src", "");
         $('#genre').text('');
   
     } else if (thisnode.name == "Third Wave Ska") {
