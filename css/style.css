@@ -248,7 +248,7 @@ input[type="radio"] {
         opacity: 0;
         transition: visibility 0ms 300ms, opacity 300ms linear; }
       .spine-wrapper.right {
-        /*color: #FDD02F;*/
+        color: #FDD02F;
         right: -48%;
         right: calc(-50% + 48px);
         -webkit-transition: right .3s ease;

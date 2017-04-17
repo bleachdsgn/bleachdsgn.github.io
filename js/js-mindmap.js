@@ -247,7 +247,7 @@
         $('.spine-wrapper.right').css('color','#fdd108');
         $('.spine-wrapper.right:before').css('color','#fdd108');
         $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8Npir5jYtzUy4eBPA39a_xve8&autoplay=1&loop=1");
-        $('#genre').text('Mento draws on musical traditions brought by West African slaves. They also absorbed European musical traditions, creating a new form. Typically featuring acoustic instruments, such as guitar, banjo, hand drums, and the rhumba box—a large mbira in the shape of a box that can be sat on while played. The lyrics of mento songs often deal with aspects of everyday life in a light-hearted and humorous way. Many comment on poverty, poor housing, and other social issues. Thinly veiled sexual references and innuendo are also common. Although the treatment of such subjects in mento is comparatively innocent, their appearance has sometimes been seen as a precursor of the slackness found in modern <a href="#">dancehall</a>.');
+        $('#genre').text('Mento draws on musical traditions brought by West African slaves. They also absorbed European musical traditions, creating a new form. Typically featuring acoustic instruments, such as guitar, banjo, hand drums, and the rhumba box—a large mbira in the shape of a box that can be sat on while played. The lyrics of mento songs often deal with aspects of everyday life in a light-hearted and humorous way. Many comment on poverty, poor housing, and other social issues. Thinly veiled sexual references and innuendo are also common. Although the treatment of such subjects in mento is comparatively innocent, their appearance has sometimes been seen as a precursor of the slackness found in modern dancehall.');
 
       } else if (thisnode.name == "Ska") {
 
@@ -387,7 +387,7 @@
         $('.spine-wrapper.left:before').css('color','#162746');
         $('.spine-wrapper.right').css('color','#162746');
         $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpjbuJ-wMo46wP8vyR_j-MPo&autoplay=1&loop=1");
-        $('#genre').text('');
+        $('#genre').text('In the United Kingdom, where jungle was very popular at the time, garage was played in a second room at jungle events. After jungle’s peak in cultural significance, it had turned towards a harsher, more techstep influenced sound, driving away dancers, predominantly women. Escaping the 170bpm jungle basslines, the garage rooms had a much more sensual and soulful sound at 130bpm.');
   
     } else if (thisnode.name == "Grime") {
 
@@ -412,6 +412,25 @@
         $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpgaM5tooB3BVpq_vKRGpuan&autoplay=1&loop=1");
         $('#genre').text('A genre of electronic dance music that emerged in the late 1990s  in South London, England. In the UK the origins of the genre can be traced back to the growth of the Jamaican sound system party scene in the early 1980s. The music generally features syncopated drum and percussion patterns with bass lines that contain prominent sub bass frequencies.');
   
+    } else if (thisnode.name == "Punk Rock") {
+
+        $('.spine-wrapper').css('background-color','#e57c89');
+        $('.spine-wrapper').css('background-color','#e57c89');
+        $('.spine-wrapper.left').css('color','#098346');
+        $('.spine-wrapper.left:before').css('color','#098346');
+        $('.spine-wrapper.right').css('color','#098346');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NpjN8vt9s_w7dTC-XsMstrBv&autoplay=1&loop=1");
+        $('#genre').text('');
+
+    } else if (thisnode.name == "2 Tone") {
+
+        $('.spine-wrapper').css('background-color','#f0d811');
+        $('.spine-wrapper').css('background-color','#f0d811');
+        $('.spine-wrapper.left').css('color','#ed0e6b');
+        $('.spine-wrapper.left:before').css('color','#ed0e6b');
+        $('.spine-wrapper.right').css('color','#ed0e6b');
+        $('#playlist').attr("src", "https://www.youtube.com/embed/videoseries?list=PLus8Qcnp8NphdQyvjZavdFp92LZ1oiq_k&autoplay=1&loop=1");
+        $('#genre').text('The genre, which began in the late 1970s in the Coventry, England area, was a fusion of Jamaican ska rhythms and melodies with punk rock’s more aggressive guitar chords and lyrics. Compared to 1960s ska, 2 Tone music had faster tempos, fuller instrumentation and a harder edge. The 2 Tone movement promoted racial unity at a time when racial tensions were high in the UK. ');
     };
 
       if (obj.activeNode) {
