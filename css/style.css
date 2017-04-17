@@ -49,32 +49,34 @@ table {
 }
 
 @font-face {
-  font-family: 'Univers Next Pro Regular';
-  src: local('../fonts/'),
-    url('UniversNextPro-Regular.ttf') format('ttf'),
-}
+
+	font-family: "Times New Roman";
+  	src: url("fonts/Times-Roman.ttf") format("truetype");
+
+  }
 
 @font-face {
-  font-family: 'Times Roman';
-  src: local('../fonts/'),
-    url('Times-Roman.ttf') format('ttf'),
-}
+
+	font-family: "Univers Next Pro Regular";
+	src: url("fonts/UniversNextPro-Regular.ttf") format("truetype");
+
+  }
 
 p {
 
-	font-family: "Times Roman";
+	font-family: "Times New Roman";
 	font-size: 3vw;
-	line-height: 4vw;
-	letter-spacing: .040vw;
+	line-height: 3.5vw;
+	letter-spacing: .030vw;
 
 }
 
 a {
 
-	font-family: 'UniversNextPro-Regular';
+	font-family: "Univers Next Pro Regular";
 	color: #000000;
 	letter-spacing: .100vw;
-	border-bottom: 0.1953125vw solid #c7c8ca;
+	border-bottom: 0.09765625vw solid #c7c8ca;
     text-decoration: none;
 
 }
@@ -83,7 +85,7 @@ a:hover {
 
 	color: #000000;
 	cursor: pointer;
-	border-bottom: 0.1953125vw solid #000;
+	border-bottom: 0.09765625vw solid #000;
 	
 
 }
@@ -91,6 +93,6 @@ a:hover {
 a:active {
 
 	color: #c7c8ca;
-	border-bottom: 0.1953125vw solid #c7c8ca;
+	border-bottom: 0.09765625vw solid #c7c8ca;
 
 }
