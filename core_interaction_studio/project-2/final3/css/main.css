@@ -1,0 +1,104 @@
+body {
+
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 2.25vw;
+	text-align: center;
+	line-height: 1.200;
+	color: white;
+
+}
+
+::-webkit-scrollbar { 
+
+    display: none; 
+
+}
+
+.flex-container {
+
+	position:absolute;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	z-index: 2;
+	
+}
+
+.left {
+
+	text-align: left;
+
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	text-decoration: none;
+
+}
+
+a:visited {
+
+	color: white;
+
+}
+
+.highlight {
+
+	color: black;
+	background: red;
+
+}
+
+.big {
+
+	font-size: 4.85vw;
+
+}
+
+div.a {
+
+	width: 20vw;
+	height: 20vw;
+	background-color: red;
+	position: absolute;
+    float: left;
+	z-index: -1;
+
+}
+
+.lights {
+
+  color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

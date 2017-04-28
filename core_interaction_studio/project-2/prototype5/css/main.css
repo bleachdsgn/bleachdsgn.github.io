@@ -1,0 +1,78 @@
+body {
+
+	font-family: 'JeanLucWeb-bold';
+	color: red;
+	font-size: 2.25vw;
+	text-align: center;
+	background: black;
+	letter-spacing: 0.35vw;
+
+}
+
+::-webkit-scrollbar { 
+
+    display: none; 
+
+}
+
+.flex-container {
+
+	position:absolute;
+	display: flex;
+	align-items: center;
+	background: black;
+	height: 100%;
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+.left {
+
+	text-align: left;
+
+}
+
+span {
+
+	color: black;
+
+}
+
+.highlight {
+
+	color: black;
+	background: red;
+
+}
+
+.big {
+
+	font-size: 4.85vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

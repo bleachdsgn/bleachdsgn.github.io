@@ -1,0 +1,301 @@
+body {
+
+	font-family: 'JeanLucWeb-bold';
+	color: red;
+	font-size: 2.25vw;
+	text-align: center;
+	background: black;
+	letter-spacing: 0.35vw;
+
+
+}
+
+::-webkit-scrollbar { 
+
+    display: none; 
+
+}
+
+.flex-container {
+
+	position:absolute;
+	display: flex;
+	align-items: center;
+	background: black;
+	height: 100%;
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+.left {
+
+	text-align: left;
+
+}
+
+a {
+
+	color: red;
+
+}
+
+a:hover {
+
+	text-decoration: none;
+
+}
+
+.highlight {
+
+	color: black;
+	background: red;
+
+}
+
+.letter-1 {
+
+	visibility:hidden;
+
+}
+
+.letter-2 {
+
+	visibility: hidden;
+
+}
+
+.letter-3 {
+
+	visibility: hidden;
+
+}
+
+.letter-4 {
+
+	visibility: hidden;
+
+}
+
+.letter-5 {
+
+	visibility: hidden;
+
+}
+
+.letter-6 {
+
+	visibility: hidden;
+
+}
+
+.letter-7 {
+
+	visibility: hidden;
+
+}
+
+.letter-8 {
+
+	visibility: hidden;
+
+}
+
+.letter-9 {
+
+	visibility: hidden;
+
+}
+
+.letter-10 {
+
+	visibility: hidden;
+
+}
+
+.letter-11 {
+
+	visibility: hidden;
+
+}
+
+.letter-12 {
+
+	visibility: hidden;
+
+}
+
+.letter-13 {
+
+	visibility: hidden;
+
+}
+
+.letter-14 {
+
+	visibility: hidden;
+
+}
+
+.letter-15 {
+
+	visibility: hidden;
+
+}
+
+.letter-16 {
+
+	visibility: hidden;
+
+}
+
+.letter-17 {
+
+	visibility: hidden;
+
+}
+
+.letter-18 {
+
+	visibility: hidden;
+
+}
+
+.letter-19 {
+
+	visibility: hidden;
+
+}
+
+.letter-20 {
+
+	visibility: hidden;
+
+}
+
+.letter-21 {
+
+	visibility: hidden;
+
+}
+
+.letter-22 {
+
+	visibility: hidden;
+
+}
+
+.letter-23 {
+
+	visibility: hidden;
+
+}
+
+.letter-24 {
+
+	visibility: hidden;
+
+}
+
+.letter-25 {
+
+	visibility: hidden;
+
+}
+
+.letter-26 {
+
+	visibility: hidden;
+
+}
+
+.number-1 {
+
+	visibility: hidden;
+
+}
+
+.number-2 {
+
+	visibility: hidden;
+
+}
+
+.number-3 {
+
+	visibility: hidden;
+
+}
+
+.number-4 {
+
+	visibility: hidden;
+
+}
+
+.number-5 {
+
+	visibility: hidden;
+
+}
+
+.number-6 {
+
+	visibility: hidden;
+
+}
+
+.number-7 {
+
+	visibility: hidden;
+
+}
+
+.number-8 {
+
+	visibility: hidden;
+
+}
+
+.number-9 {
+
+	visibility: hidden;
+
+}
+
+.number-10 {
+
+	visibility: hidden;
+
+}
+
+.punctuation {
+
+	visibility: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
